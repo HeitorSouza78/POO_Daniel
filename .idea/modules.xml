@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/SistemaDrone.iml" filepath="$PROJECT_DIR$/SistemaDrone.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Tarefas_Revisão.iml" filepath="$PROJECT_DIR$/Tarefas_Revisão.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../TcRevisao/TcRevisao.iml" filepath="$PROJECT_DIR$/../TcRevisao/TcRevisao.iml" />
     </modules>
   </component>
 </project>

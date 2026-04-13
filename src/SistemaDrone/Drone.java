@@ -1,3 +1,5 @@
+package SistemaDrone;
+
 public class Drone{
 
     private String codigo;
@@ -53,7 +55,7 @@ public class Drone{
             if(testarMotores()){
                 emVoo = true;
                 setAltura(2);
-                System.out.println("Drone decolou");
+                System.out.println("SistemaDrone.Drone decolou");
 
             }
             else{
@@ -99,7 +101,7 @@ public class Drone{
 
     @Override
     public String toString() {
-        return "Drone{" +
+        return "SistemaDrone.Drone{" +
                 "codigo='" + codigo + '\'' +
                 ", altura=" + altura +
                 ", bateria=" + bateria +
