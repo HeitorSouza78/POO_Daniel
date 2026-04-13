@@ -5,12 +5,12 @@ public class ArCondicionado{
 
 
     public ArCondicionado(String marca, String modelo, int temperatura, boolean ligado) {
-        this.marca = marca;
+        this.setMarca(marca);
         this.modelo = modelo;
-        this.temperatura = temperatura;
+        this.setTemperatura(temperatura);
         this.ligado = ligado;
     }
-
+    // se voce tem if no set(algumacoisa) é necessario passar o settemperatura no construtor
     public ArCondicionado() {
     }
 
